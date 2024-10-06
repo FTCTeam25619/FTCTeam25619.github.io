@@ -8,9 +8,11 @@
   <title>Nova Pyra - FTC 25619</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="/assets/style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Rationale&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Rationale&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png" />
@@ -19,21 +21,37 @@
 
 <body>
   <div class="flex flex-col h-dvh w-dvw max-h-dvh max-w-dvw">
-    <ul class="navbar flex flex-row w-full justify-center items-end space-x-8">
+    <div class="navbar flex flex-row w-full">
+      <a href="/"><img class="navbar-logo" src="/assets/images/NovaPyra_Logo_Concept.jpg"
+          alt="FTC 25619 Nova Pyra logo link to site home" /></a>
+      <ul class="navbaritems flex flex-row w-full justify-center items-end space-x-8">
+        <li class="text-center navitem"><a href="about.html">About Us</a></li>
+        <li class="text-center navitem"><a href="members.html">Team Members</a></li>
+        <li class="text-center navitem"><a href="robots.html">Our Robots</a></li>
+        <li class="text-center navitem"><a href="events.html">Events</a></li>
+        <li class="text-center navitem"><a href="sponsors.html">Our Sponsors</a></li>
+        <li class="text-center navitem"><a class="highlight" href="sponsor-us.html">Sponsor Us</a></li>
+      </ul>
+    </div>
+
+    <!-- ul class="navbar flex flex-row w-full justify-center items-end space-x-8 mt-[-1px]">
       <li class="basis-1/5 text-center navitem"><a href="about.html">About Us</a></li>
       <li class="basis-1/5 text-center navitem"><a href="members.html">Team Members</a></li>
       <li class="basis-1/5 text-center navitem"><a href="robots.html">Our Robots</a></li>
-      <li class="basis-1/5 text-center navitem"><a href="sponsors.html">Sponsors</a></li>
       <li class="basis-1/5 text-center navitem"><a href="events.html">Events</a></li>
-    </ul>
-    <img src="assets/NovaPyra_Logo_Concept.jpg" class="mt-8 max-h-4/5 aspect-[1.51545] m-auto animate-slow-pulse"
-      alt="Nova Pyra, FTC Team 25619" />
+      <li class="basis-1/5 text-center navitem"><a href="sponsors.html">Sponsors</a></li>
+      <li class="basis-1/5 text-center navitem"><a class="highlight" href="sponsors.html#be-a-sponsor">Sponsor Us</a>
+      </li>
+    </ul -->
+
+    <img src="/assets/images/NovaPyra_Logo_Concept.jpg"
+      class="mt-8 max-h-4/5 aspect-[1.51545] m-auto animate-slow-pulse" alt="Nova Pyra, FTC Team 25619" />
     <p class="w-full text-center text-2xl">
       A 2024 rookie team from Mandeville, LA
     </p>
     <div class="w-full mt-8 flex flex-row">
       <p class="w-full mx-4 text-right text-xs">
-        &#169; 2024 Mandeville Junior High School Robotics Boosters
+        &#169; 2024 FTC Team 25619 Robotics Boosters
       </p>
     </div>
   </div>
