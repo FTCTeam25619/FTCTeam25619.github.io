@@ -159,8 +159,13 @@ small {
   text-decoration: none;
   padding: 5px 8px 4px 8px;
   border: solid 1px var(--theme-bg);
-  border-bottom: solid 1px var(--theme-highlight);
   border-radius: var(--theme-corners) var(--theme-corners) 0 0;
+}
+
+@media(min-width: 1024px) {
+  .navbar .navitem a {
+    border-bottom: solid 1px var(--theme-highlight);
+  }
 }
 
 .navbar .navitem a:hover,
