@@ -194,3 +194,12 @@ small {
   border: solid 1px var(--theme-highlight);
   padding: 10px 20px;
 }
+
+iframe#donateFrame {
+  border: 1px solid var(--theme-highlight);
+  background-color: var(--theme-bg);
+  font-family: 'Roboto Condensed', sans-serif;
+  border-radius: var(--theme-corners);
+  max-width: 65ch;
+  max-height: 1150px;
+}
