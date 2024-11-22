@@ -40,6 +40,7 @@ body {
   --theme-text: #fff;
   --theme-bg: #000;
   --theme-highlight: #73befb;
+  --theme-hover-highlight: #102333;
   --theme-corners: 5px;
 
   background-color: var(--theme-bg);
@@ -193,6 +194,15 @@ small {
   border-radius: var(--theme-corners);
   border: solid 1px var(--theme-highlight);
   padding: 10px 20px;
+}
+
+a.block-link {
+  text-decoration: none;
+}
+
+a.block-link>div:hover {
+  text-decoration: none;
+  background-color: var(--theme-hover-highlight);
 }
 
 iframe#donateFrame {
