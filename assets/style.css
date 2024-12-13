@@ -196,6 +196,13 @@ small {
   padding: 10px 20px;
 }
 
+a.no-underline {
+  text-decoration: none;
+}
+a.no-underline:hover {
+  text-decoration-line: underline;
+}
+
 a.block-link {
   text-decoration: none;
 }
