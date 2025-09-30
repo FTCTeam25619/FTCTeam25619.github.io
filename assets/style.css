@@ -42,10 +42,12 @@ body {
   --theme-highlight: #73befb;
   --theme-hover-highlight: #102333;
   --theme-corners: 5px;
+  --theme-title-font: "Rationale";
+  --theme-body-font: "Roboto Condensed";
 
   background-color: var(--theme-bg);
   color: var(--theme-text);
-  font-family: Rationale, sans-serif;
+  font-family: var(--theme-title-font), sans-serif;
   font-size: 16pt;
   width: viewport;
   height: viewport;
@@ -69,7 +71,7 @@ div {
 }
 
 .content h1 {
-  font-family: "Rationale", sans-serif;
+  font-family: var(--theme-title-font), sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 2em;
@@ -78,7 +80,7 @@ div {
 }
 
 .content h2 {
-  font-family: "Rationale", sans-serif;
+  font-family: var(--theme-title-font), sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 1.7em;
@@ -87,7 +89,7 @@ div {
 }
 
 .content h3 {
-  font-family: "Rationale", sans-serif;
+  font-family: var(--theme-title-font), sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 1.3em;
@@ -96,7 +98,7 @@ div {
 }
 
 .content p {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: var(--theme-body-font), sans-serif;
   font-optical-sizing: auto;
   font-weight: 100;
   font-style: normal;
@@ -114,7 +116,7 @@ div {
 }
 
 .content ul {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: var(--theme-body-font), sans-serif;
   font-optical-sizing: auto;
   font-weight: 100;
   font-style: normal;
@@ -125,7 +127,7 @@ div {
 
 .content table {
   margin-top: 20px;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: var(--theme-body-font), sans-serif;
   font-optical-sizing: auto;
   font-weight: 100;
   font-style: normal;
